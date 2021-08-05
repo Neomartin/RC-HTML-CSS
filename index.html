@@ -1,0 +1,165 @@
+<!-- Este es el bloque principal de mi página web -->
+<html>
+<!-- La etiqueta head contiene información útil de mi página para el navegador, buscadores, y para cargar archivos -->
+
+<head>
+	<!-- Muestra el titulo en la pestaña web -->
+	<title>Mi primer página WEB</title>
+	<link rel="stylesheet" href="/styles/styles.css">
+	
+</head>
+<!-- La etiqueta body contiene el cuerpo de mi página web y todo el contenido visible -->
+
+<body>
+	<!-- Dentro de header vamos a poner la cabecera de mi página web junto con los enlaces (links) de mayor importancia -->
+	<header>
+		<nav>
+			<a class="nav-link" href="/index.html"> LOGO </a>  
+			<a class="nav-link" href="/pages/register/register.html">Register</a> 
+			<a class="nav-link" href="/pages/images/gallery/gallery.html">Galeria</a>
+			<a class="nav-link" href="/pages/nosotros.html">Nosotros</a>
+			<a class="nav-link" href="/contacto.html">Contacto</a>
+			dasdsadsa
+		</nav>
+		<hr>
+	</header>
+	<!-- Contenido del mi body -->
+	<main>
+		<h1 id="titulo" class="titulo-principal">CURSO FULLSTACK</h1 >
+		<h1 id="titulo2" class="titulo-principal">CURSO FULLSTACK</h1>
+		<!-- Insertar imagen desde página web -->
+		<img src="/assets/images/logo.jpg" 
+			 alt="logo principal" width="700px" height="auto">
+		<p>
+			<a href="#section-cars">Autos</a>
+		</p>
+
+		<hr>
+		<section>
+			<h2>LISTA DE TEMAS DE HTML</h2>
+			<!-- Listas ordenadas define el estilo de la lista con un número <ol>-->
+			<div>
+				<ol>
+					<!-- Definir elementos dentro de mi lista: <li> -->
+					<li>
+						<a href="#text-format">Formato de texto</a>
+					</li>
+					<li><a href="/pages/tables/tables.html">Tablas</a></li>
+					<li>
+						<a href="/pages/forms/forms.html">
+							Formularios
+						</a>
+						<!-- Dentro de mi list item genero una nueva lista en esta caso desordenada -->
+						<ul>
+							<li>Input</li>
+							<li>Select</li>
+							<li>Button</li>
+							<li>Textarea</li>
+						</ul>
+					</li>
+					<!-- <li>
+						<img src="/assets/images/cars/mini-car.jpg" alt="mini imagen de un auto">
+					</li> -->
+
+					<li>
+						<a href="/pages/media/media.html">Video, audio y iFrame</a>
+					</li>
+					<li>
+						Lista de descripciones
+						<dl>
+							<dt>Etiqueta</dt>
+							<dt>Etiqueta</dt>
+							<dt>Etiqueta</dt>
+						</dl>
+					</li>
+				</ol>
+			</div>
+			
+		</section>
+		<hr>
+		<section id="text-format">
+			<h2 class="texto-centrado texto-resaltado">Tipos de textos</h2>
+			<article>
+				<h3>Títulos</h3>
+				<!-- Las etiquetas H1....H6 nos indican los títulos de mi contenido, el orden es descendente en cuanto a importancia -->
+				<h1>Título 1</h1>
+				<h2>Título 2</h2>
+				<h3 class="nav-link">Título 3</h3>
+				<h4>Título 4</h4>
+				<h5>Título 5</h5>
+				<h6>Título 6</h6>
+			</article>
+			<article>
+				<h3>Formato de texto</h3>
+				<b>Texto negrita (etiqueta en desuso) &lt;b&gt;  </b><br>
+				<strong>Texto en negrita</strong> <br>
+				<i>Texto en cursiva (en desuso)</i><br>
+				<em>Texto con énfasis</em> <br>
+				<mark>Texto resaltado</mark><br>
+				<small>Texto pequeño</small><br>
+				<del>Texto tachado/anulado</del><br>
+				<ins>Texto insertado</ins> <br>
+				H<sub>2</sub>O<br>
+				O<sup>2</sup><br>
+				<code>Texto código preformateado</code><br>
+				<pre>Texto pre formateado</pre><br>
+			</article>
+
+		</section>
+		<hr>
+		<section id="cars">
+			<h2 class="texto-centrado texto-resaltado">LINK O ENLACES</h2>
+			<h3>LINKS ABSOLUTOS</h3>
+			<p>
+				<a href="https://www.w3schools.com" target="_blank">
+					Ir a w3school
+				</a>
+			</p>
+			<p>
+				<a href="https://www.google.com">
+					Google
+				</a>
+				<h2>CREAR LINKS DEL PROYECTO</h2>
+				<!-- <b>CONTENIDO EN NEGRITA</b>
+				<i>CONTENIDO EN CURSIVA</i> -->
+			</p>
+			<h3>LINKS RELATIVOS</h3>
+			<!-- Ruta de acceso relativa -->
+			<a href="contacto.html">Contacto</a>
+			<a href="pages/nosotros.html">Nosotros</a>
+			<a href="pages/images/gallery/gallery.html">Galeria</a>
+			
+		</section>
+		
+		<hr>
+		<section id="section-cars">
+			<H2 class="texto-centrado-resaltado">LOS AUTOS MÁS RÁPIDOS DEL MUNDO</H2>
+			<img src="/assets/images/cars/car1.jpg" alt="imagen principal de la sección cars">
+			<p class="mi-parrafo-personalizado">
+				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi quae at accusantium quas deleniti eos ipsa nesciunt in fugiat quia.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi quae at accusantium quas deleniti eos ipsa nesciunt in fugiat quia.
+			</p>
+			<article>
+				<h3 class="texto-centrado">FERRARI SPIDER</h3>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sunt exercitationem ex provident voluptas aliquid? Illum, magnam. Ipsa dolore eum vitae vel pariatur, nihil eius unde sapiente delectus, ullam accusantium!
+			</article>
+			<article>
+				<h3>PORSCHE BLACK</h3>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sunt exercitationem ex provident voluptas aliquid? Illum, magnam. Ipsa dolore eum vitae vel pariatur, nihil eius unde sapiente delectus, ullam accusantium!
+			</article>
+		</section>
+		<hr>
+	</main>
+	<footer>
+		<a href="#cars">IR A LOS AUTOS</a>
+		<a href="mailto:user@gmail.com">ENVIAR CORREO</a>
+		<p>
+			&copy; Todos los derechos reservados para el Creador - 2021
+		</p>
+	</footer>
+
+</body>
+
+</html>

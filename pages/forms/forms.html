@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="sp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/index.html"> LOGO </a>
+            <a href="/pages/register/register.html">Register</a>
+            <a href="/pages/images/gallery/gallery.html">Galeria</a>
+            <a href="/pages/nosotros.html">Nosotros</a>
+            <a href="/contacto.html">Contacto</a>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <h1>Formularios</h1>
+        <!-- Etiqueta que engloba mi formulario de ingreso de datos -->
+        <form>
+            <p>
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Ingrese su nombre" autocomplete required autofocus
+                    minlength="3">
+            </p>
+            <p>
+                <label for="surname">Apellido</label>
+                <input type="text" name="surname" id="surname" placeholder="Ingrese su apellido">
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Correo electónico" required>
+            </p>
+            <p>
+                <label for="password">Contraseña</label>
+                <input type="password" name="pass" id="password">
+            </p>
+            <p>
+                <label for="age">Edad</label>
+                <input type="number" name="age" id="age" max="100" min="18">
+            </p>
+            <p>
+                <label for="origin">Seleccione su provincia</label>
+                <select name="origin" id="origin">
+                    <option value="tucuman">Tucuman</option>
+                    <option value="mendoza">Mendoza</option>
+                    <option value="cordoba">Cordoba</option>
+                    <option value="salta">Salta</option>
+                    <option value="buenos-aires">Buenos Aires</option>
+                </select>
+            </p>
+            <p> 
+                <label for="subcription">Recibir emails</label>
+                <input type="checkbox" id="subcription" >
+            </p>
+            <p> 
+                <label for="pets">Animales preferidos</label> <br>
+                <input type="checkbox" name="pets" value="dogs"> Perro  <br>
+                <input type="checkbox" name="pets" value="cats"> Gato <br>
+                <input type="checkbox" name="pets" value="birds"> Pajaros<br>
+                <input type="checkbox" name="pets" value="fishs"> Peces <br>
+            </p>
+            <p> 
+                <label for="sex">Sexo</label><br>
+                <input type="radio" name="sex" value="female">Femenino  <br>
+                <input type="radio" name="sex" value="male">Masculino <br>
+                <input type="radio" name="sex" value="undefined">Indefinido<br>
+                <input type="text" name="sex" placeholder="otro"> <br>
+            </p>
+            <p> 
+                <label for="price">Precios</label>
+                <input type="range" value="25" min="0" max="200" />
+            </p>
+            <p>
+                <label for="color">Color favorito</label>
+                <input type="color">
+            </p>
+            <p>
+                <label for="img">Foto de perfil</label> <br>
+                <input type="file" name="img-profile" id="img" accept="image/*">
+            </p>
+            <p>
+                <label for="date">Fecha de nacimiento</label>
+                <input type="date" id="date" name="born-date">
+            </p>
+            <p>
+                <label for="time">Hora de turno</label>
+                <input type="time" id="time" name="time">
+            </p>
+            <p>
+                <label for="description">Descripción</label> <br>
+                <textarea name="description" id="description" rows="3" cols="60"></textarea>
+            </p>
+            <p>
+                <fieldset>
+                    <legend>Opciones de pago</legend>
+                    <input type="text" list="payments-methods">
+                    <datalist id="payments-methods">
+                        <option value="mp">Mercadopago
+                        <option value="bna">Banco de la nacion Argentina
+                        <option value="Paypal">Paypal
+                    </datalist>
+                </fieldset>
+            </p>
+            <p>
+                <button type="submit">Enviar Formulario</button>
+            </p>
+        </form>
+    </main>
+
+    <footer>
+        <hr>
+        <a href="#cars">IR A LOS AUTOS</a>
+        <a href="mailto:user@gmail.com">ENVIAR CORREO</a>
+        <p>
+            &copy; Todos los derechos reservados para el Creador - 2021
+        </p>
+    </footer>
+</body>
+
+</html>

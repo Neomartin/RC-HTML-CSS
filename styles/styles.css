@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+/* Selector */
+body {
+    background-color: #ffffff;
+    color: #333;
+    font-family: "Roboto", sans-serif;
+}
+
+
+h1#titulo {
+    color: crimson;
+    font-weight: 300;
+}
+
+header {
+    background-color: dodgerblue;
+    color: white
+}
+
+nav {
+    color: green;
+}
+
+h1.titulo-principal {
+    font-size: 80px;
+    color: beige;
+}
+
+h1 {
+    /* Dentro de las llaves van los estilos que voy aplicar a ese elemento */
+    color: white;
+    font-size: 35px;
+}
+
+a {
+    color: black;
+}
+h3 {
+    text-decoration: double underline;
+    color: red;
+    font-size: 40px;
+}
+a.nav-link {
+    color: rgb(255, 255, 255);
+}
+p {
+    color: dodgerblue;
+}
+.mi-parrafo-personalizado {
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.texto-centrado {
+    text-align: center;
+}
+.texto-resaltado {
+    color: coral;
+    font-size: 50px;
+}
+/* No se considera buena práctica definir estilos que ya estan previamentes definidos en otras clases */
+.texto-centrado-resaltado {
+    color: rgb(105, 33, 7);
+    font-size: 50px;
+    text-align: center;
+}
+
+.alerta {
+    color: rgb(255, 72, 0);
+    font-size: 50px;
+}
+
