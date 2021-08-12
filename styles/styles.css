@@ -8,14 +8,9 @@ body {
     position: relative;
 }
 
-
-h1#titulo {
-    color: crimson;
-    font-weight: 300;
-}
-
+/* Header SECTION */
 header {
-    background-color: dodgerblue;
+    background-color: #333333;
     color: white;
     position: sticky;
     top: 0;
@@ -23,23 +18,66 @@ header {
 
 nav {
     color: green;
-    padding: 20px;
+
 }
-nav a{
-    padding: 10px;
+nav a {
+    /* padding: 20px; */
+    /* padding: 10px; */
     text-decoration: none;
 }
 
-h1.titulo-principal {
+nav a:hover {
+    background-color: #000;
+    color: red;
+    /* font-size: 20px; */
+}
+
+
+/* END Header SECTION */
+.logo-main{
+    height: 550px;
+    width: 100%;
+    background-image: url(/assets/images/download.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.logo-text-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding:30px 30px 60px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    float: left;
+    /* CENTRAR EN FORMA HORIZONTAL Y VERTICAL */
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+#titulo2 {
+    /* Dentro de las llaves van los estilos que voy aplicar a ese elemento */
+    /* color: white; */
+    margin: 20px 0;
+    font-size: 50px;
+    border-bottom: 1px solid #808080;
+}
+
+.logo-main p{
+    /* color: white; */
+    margin: 0;
+    width:65%;
+}
+
+
+h1.titulo-intermedios {
     font-size: 80px;
     color: beige;
 }
 
-h1 {
-    /* Dentro de las llaves van los estilos que voy aplicar a ese elemento */
-    color: white;
-    font-size: 35px;
-}
 
 a {
     color: black;
@@ -52,9 +90,9 @@ h3 {
 a.nav-link {
     color: rgb(255, 255, 255);
 }
-p {
+/* p {
     color: dodgerblue;
-}
+} */
 .mi-parrafo-personalizado {
     font-size: 24px;
     line-height: 50px;
@@ -79,21 +117,16 @@ p {
     font-size: 50px;
 }
 
-.logo-main{
-    height: 300px;
-    width: 500px;
-    background-image: url(/assets/images/download.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: relative;
+
+/* SECTION CARS */
+p.diferentes  {
+    display: inline-block;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: #6aaae6;
 }
-.logo-main p{
-    color: #000;
-    position: absolute;
-    /* bottom: 0;
-    right: 0; */
-    top: 50%;
-    left: 50%;
-    margin: 0;
-    background-color: red;
+
+#section-cars h3  {
+    display: none;
 }
